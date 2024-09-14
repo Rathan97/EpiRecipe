@@ -1,0 +1,64 @@
+/* src/styles/RecipePage.css */
+.recipe-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.recipe-page p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #555;
+    text-align: left;
+}
+
+.recipe-page strong {
+    font-weight: bold;
+}
+
+.recipe-page .recipe-details {
+    margin-bottom: 30px;
+}
+
+.recipe-page .directions, .recipe-page .ingredients {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.recipe-page .directions ul, .recipe-page .ingredients ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.recipe-page .directions li, .recipe-page .ingredients li {
+    margin-bottom: 10px;
+}
+
+.recipe-page .directions p, .recipe-page .ingredients p {
+    margin-bottom: 10px;
+}
+
+.recipe-page .directions-title, .recipe-page .ingredients-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+    text-align: left;
+}
+
+/* Center the recipe details without card styling */
+.recipe-page .recipe-details {
+    text-align: left;
+    padding: 20px;
+}

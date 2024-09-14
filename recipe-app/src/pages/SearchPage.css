@@ -1,0 +1,16 @@
+/* SearchPage.css */
+
+.search-page {
+  display: flex;
+}
+
+.results {
+  flex: 1;
+  padding: 16px;
+}
+
+.results-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
